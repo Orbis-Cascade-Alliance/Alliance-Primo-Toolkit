@@ -1,0 +1,8 @@
+/************************************* BEGIN Chat Area ************************************/
+
+applocal.component('prmSearchBookmarkFilterAfter', {
+    bindings: {},
+    template: '<div class="chat"><a ng-href="http://library.willamette.edu/ref/ask" target="new_window"><img src="http://library.willamette.edu/external/exlibris/primo/images/webchat_36px.png"></img></a></div>'
+});
+
+/************************************* END Chat Area ************************************/
