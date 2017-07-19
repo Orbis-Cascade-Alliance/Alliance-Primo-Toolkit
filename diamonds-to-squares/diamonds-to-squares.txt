@@ -1,0 +1,11 @@
+prm-spinner.half-transparent .diamond{background-color: yellow}
+prm-spinner .loader .diamond {animation: squares 1.5s linear infinite}
+
+@keyframes squares {
+    50% {
+        transform: translateY(-2em) rotate(90deg) scale(1);
+    }
+    100% {
+        transform: translateY(-4em) rotate(90deg) scale(0);
+    }
+}
