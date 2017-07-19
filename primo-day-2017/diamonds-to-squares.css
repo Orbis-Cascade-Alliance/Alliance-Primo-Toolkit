@@ -1,3 +1,7 @@
+/* Change "dancing diamonds" animation to squares
+* Provided by Noam Amit from Ex Libris at Primo Day 2017
+*/
+
 prm-spinner.half-transparent .diamond{background-color: yellow}
 prm-spinner .loader .diamond {animation: squares 1.5s linear infinite}
 

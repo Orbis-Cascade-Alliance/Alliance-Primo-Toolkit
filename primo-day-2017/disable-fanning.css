@@ -1,3 +1,7 @@
+/* Disable animation/fanning of resource type icons 
+* Provided by Noam Amit from Ex Libris at Primo Day 2017
+*/
+
 prm-brief-result-container:hover prm-search-result-thumbnail-container .fan-img:nth-of-type(1),
 prm-brief-result-container:hover prm-search-result-thumbnail-container .fan-img:nth-of-type(2),
 prm-brief-result-container:hover prm-search-result-thumbnail-container .fan-img:nth-of-type(3),
