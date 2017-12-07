@@ -1,0 +1,12 @@
+angular
+  .module('chat', ['angularLoad'])
+  .component('addChat', {
+      controller: ['angularLoad', function (angularLoad) {
+          this.$onInit = function () {
+            angularLoad.loadScript('https://cdn.slaask.com/chat.js')
+              .then(function() {
+                _slaask.init('some_long_unique_id_value')
+              })
+          }
+      }]
+  })

@@ -1,0 +1,13 @@
+var app = angular.module('viewCustom', ['chat'])
+
+angular
+  .module('chat', ['angularLoad'])
+  .component('addChat', {
+      controller: ['angularLoad', function (angularLoad) {
+          this.$onInit = function () {
+            angularLoad.loadScript('https://my.chat.site/chat.js')
+          }
+      }]
+  })
+
+app.component('prmTopBarBefore', {template: '<add-chat />'})
